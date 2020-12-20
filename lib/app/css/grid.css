@@ -75,6 +75,14 @@
     height: 80vh;
 }
 
+.grid-height-75 {
+    height: 75vh;
+}
+
+.grid-height-70 {
+    height: 70vh;
+}
+
 .grid-height-66 {
     height: 66.6vh;
 }
@@ -109,6 +117,10 @@
 
 .grid-height-25 {
     height: 25vh;
+}
+
+.grid-height-20 {
+    height: 20vh;
 }
 
 .grid-height-15 {
