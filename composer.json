@@ -1,0 +1,7 @@
+{
+    "require": {
+        "components/jquery": "^3.5",
+        "fortawesome/font-awesome": "^5.15",
+        "mervick/material-design-icons": "^2.2"
+    }
+}
