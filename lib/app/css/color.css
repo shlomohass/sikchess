@@ -1,0 +1,30 @@
+/******************************  COLOR HELPERS  *****************************/
+
+:root {
+    --theme-bg-color: #272727;
+    --theme-bg-color-light: #2e2e2e;
+    --theme-text-color: #747474;
+    --theme-orange: #FF652F;
+    --theme-yellow: #FFE400;
+    --theme-blue: #14A76C;
+}
+
+.bg-dark {
+    background-color: var(--theme-bg-color);
+}
+
+.bg-light {
+    background-color: var(--theme-bg-color-light);
+}
+
+.bg-orange {
+    background-color: var(--theme-orange);
+}
+
+.bg-yellow {
+    background-color: var(--theme-yellow);
+}
+
+.bg-blue {
+    background-color: var(--theme-blue);
+}

@@ -1,7 +1,11 @@
 {
     "require": {
         "components/jquery": "^3.5",
-        "fortawesome/font-awesome": "^5.15",
-        "mervick/material-design-icons": "^2.2"
+        "mervick/material-design-icons": "^2.2",
+        "components/modernizr": "^3.5",
+        "components/normalize.css": "^3.0",
+        "components/font-awesome": "^5.15",
+        "components/masonry": "^4.2",
+        "desandro/imagesloaded": "^4.1"
     }
 }

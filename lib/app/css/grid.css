@@ -1,0 +1,126 @@
+/* ---- sik grid for mansory grid ---- */
+
+.grid {}
+
+.grid:after {
+    /* clear fix */
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+    width: 10%;
+}
+
+.grid-item {
+    float: left;
+}
+
+.grid-item.col-2 {
+    width: 20%;
+}
+
+.grid-item.col-3 {
+    width: 30%;
+}
+
+.grid-item.col-4 {
+    width: 40%;
+}
+
+.grid-item.col-5 {
+    width: 50%;
+}
+
+.grid-item.col-6 {
+    width: 60%;
+}
+
+.grid-item.col-7 {
+    width: 70%;
+}
+
+.grid-item.col-8 {
+    width: 80%;
+}
+
+.grid-item.col-9 {
+    width: 90%;
+}
+
+.grid-item.col-10 {
+    width: 100%;
+}
+
+
+/* height */
+
+.grid-height-100 {
+    height: 100vh;
+}
+
+.grid-height-95 {
+    height: 95vh;
+}
+
+.grid-height-90 {
+    height: 90vh;
+}
+
+.grid-height-85 {
+    height: 85vh;
+}
+
+.grid-height-80 {
+    height: 80vh;
+}
+
+.grid-height-66 {
+    height: 66.6vh;
+}
+
+.grid-height-65 {
+    height: 65vh;
+}
+
+.grid-height-60 {
+    height: 60vh;
+}
+
+.grid-height-50 {
+    height: 50vh;
+}
+
+.grid-height-45 {
+    height: 45vh;
+}
+
+.grid-height-40 {
+    height: 40vh;
+}
+
+.grid-height-33 {
+    height: 33.3vh;
+}
+
+.grid-height-30 {
+    height: 30vh;
+}
+
+.grid-height-25 {
+    height: 25vh;
+}
+
+.grid-height-15 {
+    height: 15vh;
+}
+
+.grid-height-10 {
+    height: 10vh;
+}
+
+.grid-height-5 {
+    height: 5vh;
+}

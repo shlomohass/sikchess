@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "614090fd3526e17f1c68eb9593c3931d",
+    "content-hash": "f93fca85d2db64c893593957db155269",
     "packages": [
+        {
+            "name": "components/font-awesome",
+            "version": "5.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "6943708effe6d823d40255bcdbe9ee021312c880"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/6943708effe6d823d40255bcdbe9ee021312c880",
+                "reference": "6943708effe6d823d40255bcdbe9ee021312c880",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "styles": [
+                        "css/all.css"
+                    ],
+                    "files": [
+                        "css/all.min.css",
+                        "webfonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-4.0",
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
+            "support": {
+                "issues": "https://github.com/components/font-awesome/issues",
+                "source": "https://github.com/components/font-awesome/tree/5.15.1"
+            },
+            "time": "2020-10-06T06:45:49+00:00"
+        },
         {
             "name": "components/jquery",
             "version": "3.5.1",
@@ -56,73 +95,195 @@
             "time": "2020-05-05T13:21:02+00:00"
         },
         {
-            "name": "fortawesome/font-awesome",
-            "version": "5.15.1",
+            "name": "components/masonry",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "57005cea6da7d1c67f3466974aecd25485f60452"
+                "url": "https://github.com/components/masonry.git",
+                "reference": "b43b7a0771c85ad5fd49f3b0fac86f804b228ec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/57005cea6da7d1c67f3466974aecd25485f60452",
-                "reference": "57005cea6da7d1c67f3466974aecd25485f60452",
+                "url": "https://api.github.com/repos/components/masonry/zipball/b43b7a0771c85ad5fd49f3b0fac86f804b228ec8",
+                "reference": "b43b7a0771c85ad5fd49f3b0fac86f804b228ec8",
                 "shasum": ""
             },
-            "type": "library",
+            "type": "component",
+            "extra": {
+                "component": {
+                    "main": "masonry.pkgd.js",
+                    "scripts": [
+                        "masonry.pkgd.js"
+                    ],
+                    "files": [
+                        "masonry.pkgd.min.js"
+                    ],
+                    "shim": {
+                        "exports": "Masonry"
+                    }
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "CC-BY-4.0",
-                "OFL-1.1",
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Travis Chase",
-                    "homepage": "http://twitter.com/supercodepoet"
-                },
-                {
-                    "name": "Dave Gandy",
-                    "homepage": "http://twitter.com/davegandy"
-                },
-                {
-                    "name": "Rob Madole",
-                    "homepage": "http://twitter.com/robmadole"
-                },
-                {
-                    "name": "Jory Raphael",
-                    "homepage": "http://twitter.com/sensibleworld"
-                },
-                {
-                    "name": "Geremia Taglialatela",
-                    "homepage": "http://twitter.com/gtagliala"
-                },
-                {
-                    "name": "Brian Talbot",
-                    "homepage": "http://twitter.com/talbs"
-                },
-                {
-                    "name": "Mike Wilkerson",
-                    "homepage": "http://twitter.com/mw77"
+                    "name": "David DeSandro",
+                    "homepage": "http://desandro.com"
                 }
             ],
-            "description": "The iconic font, CSS, and SVG framework",
-            "homepage": "https://fontawesome.com",
+            "description": "Cascading grid layout library",
+            "homepage": "http://masonry.desandro.com",
+            "support": {
+                "issues": "https://github.com/desandro/masonry/issues",
+                "source": "https://github.com/desandro/masonry"
+            },
+            "time": "2017-06-21T13:27:13+00:00"
+        },
+        {
+            "name": "components/modernizr",
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/modernizr.git",
+                "reference": "f4fc5301da393558235c8c927937ed21a5a7c344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/modernizr/zipball/f4fc5301da393558235c8c927937ed21a5a7c344",
+                "reference": "f4fc5301da393558235c8c927937ed21a5a7c344",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "modernizr.js"
+                    ],
+                    "shim": {
+                        "exports": "window.Modernizr"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Faruk Ates"
+                },
+                {
+                    "name": "Paul Irish"
+                },
+                {
+                    "name": "Alex Sexton"
+                },
+                {
+                    "name": "Ryan Seddon"
+                },
+                {
+                    "name": "Stu Cox"
+                },
+                {
+                    "name": "Patrick Kettner"
+                },
+                {
+                    "name": "Richard Herrera"
+                }
+            ],
+            "description": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.",
+            "homepage": "https://modernizr.com",
             "keywords": [
-                "FontAwesome",
-                "awesome",
-                "bootstrap",
-                "font",
-                "icon",
-                "svg"
+                "CSS3",
+                "HTML5",
+                "browser",
+                "feature detection"
             ],
             "support": {
-                "docs": "http://fontawesome.com/how-to-use",
-                "email": "hello@fontawesome.com",
-                "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
-                "source": "https://github.com/FortAwesome/Font-Awesome"
+                "issues": "https://github.com/components/modernizr/issues",
+                "source": "https://github.com/components/modernizr/tree/master"
             },
-            "time": "2020-10-05T16:44:11+00:00"
+            "time": "2017-07-06T07:27:29+00:00"
+        },
+        {
+            "name": "components/normalize.css",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/normalize.css.git",
+                "reference": "45dc73f97034936e7ab1838be4887a3be315824b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/normalize.css/zipball/45dc73f97034936e7ab1838be4887a3be315824b",
+                "reference": "45dc73f97034936e7ab1838be4887a3be315824b",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "normalize-css",
+                    "styles": [
+                        "normalize.css"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.",
+            "homepage": "http://necolas.github.com/normalize.css/",
+            "support": {
+                "issues": "https://github.com/components/normalize.css/issues",
+                "source": "https://github.com/components/normalize.css/tree/3.0.3"
+            },
+            "time": "2015-05-21T16:25:32+00:00"
+        },
+        {
+            "name": "desandro/imagesloaded",
+            "version": "v4.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desandro/imagesloaded.git",
+                "reference": "67c4e57453120935180c45c6820e7d3fbd2ea1f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/imagesloaded/zipball/67c4e57453120935180c45c6820e7d3fbd2ea1f9",
+                "reference": "67c4e57453120935180c45c6820e7d3fbd2ea1f9",
+                "shasum": ""
+            },
+            "type": "component",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David DeSandro",
+                    "homepage": "http://desandro.com/",
+                    "role": "developer"
+                }
+            ],
+            "description": "JavaScript is all like _You images done yet or what?_",
+            "homepage": "http://imagesloaded.desandro.com",
+            "keywords": [
+                "dom",
+                "images",
+                "javascript",
+                "jquery-plugin",
+                "library",
+                "loaded",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/desandro/imagesloaded/issues",
+                "source": "https://github.com/desandro/imagesloaded/tree/v4.1.4"
+            },
+            "time": "2018-01-02T16:53:35+00:00"
         },
         {
             "name": "mervick/material-design-icons",
