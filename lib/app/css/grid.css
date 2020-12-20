@@ -1,7 +1,5 @@
 /* ---- sik grid for mansory grid ---- */
 
-.grid {}
-
 .grid:after {
     /* clear fix */
     content: '';

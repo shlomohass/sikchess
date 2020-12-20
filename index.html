@@ -7,9 +7,9 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="./lib/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./lib/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./lib/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./lib/app/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./lib/app/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./lib/app/img/favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
     <!-- include top -->
     <link rel="stylesheet" href="./vendor/components/normalize.css/normalize.css">
@@ -26,6 +26,8 @@
     <script src="./vendor/components/masonry/masonry.pkgd.min.js"></script>
     <script src="./vendor/desandro/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="./lib/sikchess/sikchess.1.0.js"></script>
+
+    <!-- grid base -->
     <div class="grid">
         <div class="grid-sizer"></div>
         <div class="grid-item col-10 grid-height-5">
@@ -35,7 +37,7 @@
             Sub Menu
         </div>
         <div class="grid-item col-6 grid-height-65">
-            Board
+            <div id='chessboard'></div>
         </div>
         <div class="grid-item col-2 grid-height-95 bg-light">
             Right Nav
@@ -47,6 +49,7 @@
             Comments + Engine
         </div>
     </div>
+
     <!-- include js -->
     <script src="./lib/app/app.js"></script>
 </body>
