@@ -1,6 +1,10 @@
 :root {
     --sikchess-gutters-size: 40px;
     --sikchess-gutters-bg: #272727;
+    --sikchess-control-bg: #272727;
+    --sikchess-control-hover-bg: #383838;
+    --sikchess-control-text-color: #b9b9b9;
+    --sikchess-control-on-color: #FFE400;
     --sikchess-board-bg: #272727;
     --sikchess-tiles-bg: #b1b1b1;
 }
@@ -30,23 +34,50 @@
 .chess-board .gutter-top {
     width: 100%;
     height: var(--sikchess-gutters-size);
+    padding: 0px var(--sikchess-gutters-size);
 }
 
 .chess-board .gutter-bottom {
     width: 100%;
     height: var(--sikchess-gutters-size);
+    padding: 0px var(--sikchess-gutters-size);
 }
 
 .chess-board .gutter-left {
     float: left;
     width: var(--sikchess-gutters-size);
+    padding: var(--sikchess-gutters-size) 0px;
     height: 100%;
 }
 
 .chess-board .gutter-right {
     float: right;
     width: var(--sikchess-gutters-size);
+    padding: var(--sikchess-gutters-size) 0px;
     height: 100%;
+}
+
+.chess-board .sikchess-control {
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    width: var(--sikchess-gutters-size);
+    height: var(--sikchess-gutters-size);
+    line-height: var(--sikchess-gutters-size);
+    background-color: var(--sikchess-control-bg);
+    cursor: pointer;
+    color: var(--sikchess-control-text-color);
+    opacity: .7;
+}
+
+.chess-board .sikchess-control.on {
+    opacity: 1;
+    color: var(--sikchess-control-on-color);
+}
+
+.chess-board .sikchess-control:hover {
+    background-color: var(--sikchess-control-hover-bg);
+    opacity: 1;
 }
 
 .chess-board .tiles-wrap {
