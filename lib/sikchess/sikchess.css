@@ -1,5 +1,5 @@
 :root {
-    --sikchess-gutters-size: 15px;
+    --sikchess-gutters-size: 40px;
     --sikchess-gutters-bg: #272727;
     --sikchess-board-bg: #272727;
     --sikchess-tiles-bg: #b1b1b1;
@@ -54,6 +54,7 @@
     height: calc(100% - var(--sikchess-gutters-size)*2);
     margin: 0 auto;
     border: 10px solid var(--sikchess-tiles-bg);
+    border-radius: 2px;
     background-color: var(--sikchess-tiles-bg);
 }
 
