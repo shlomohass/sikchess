@@ -1,0 +1,66 @@
+{
+  "_from": "@mliebelt/pgn-parser",
+  "_id": "@mliebelt/pgn-parser@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-idM4k8j+KDZeytJKl1jBVX++/1JTHtK4YViUNy9ogccHa8k7TV5QjtyvfMGTtGVaJRovV/8PneO8cgQiGeVIHw==",
+  "_location": "/@mliebelt/pgn-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@mliebelt/pgn-parser",
+    "name": "@mliebelt/pgn-parser",
+    "escapedName": "@mliebelt%2fpgn-parser",
+    "scope": "@mliebelt",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@mliebelt/pgn-parser/-/pgn-parser-1.1.1.tgz",
+  "_shasum": "1532210232eee68371e2aace909c5445d338abb6",
+  "_spec": "@mliebelt/pgn-parser",
+  "_where": "D:\\Server\\sikchess",
+  "author": {
+    "name": "mliebelt"
+  },
+  "bugs": {
+    "url": "https://github.com/mliebelt/pgn-parser/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A PEG parser to read PGN (Portable Game Notation) games.",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "pegjs": "^0.10.0",
+    "should": "^13.2.3"
+  },
+  "files": [
+    "_pgn-parser.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/mliebelt/pgn-parser/blob/master/README.md",
+  "keywords": [
+    "chess",
+    "pgn",
+    "peg",
+    "parser"
+  ],
+  "license": "Apache-2.0",
+  "main": "pgn-parser.js",
+  "name": "@mliebelt/pgn-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mliebelt/pgn-parser.git"
+  },
+  "scripts": {
+    "build": "node_modules/pegjs/bin/pegjs --allowed-start-rules pgn,tags,game,games -o _pgn-parser.js src/pgn-rules.pegjs",
+    "test": "mocha",
+    "test-interactive": "mocha -w"
+  },
+  "version": "1.1.1"
+}
