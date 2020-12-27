@@ -1,0 +1,8 @@
+g.branch-node circle,
+g.branch-node text {
+    cursor: pointer
+}
+
+g.branch-node circle:hover {
+    fill: #ffffff !important;
+}
